@@ -1,0 +1,11 @@
+{
+  "author": {
+    "name": "Dylan Price"
+  },
+  "name": "angular-gm",
+  "version": "0.3.0",
+  "main": ["./angular-gm-0.3.0.js"],
+  "dependencies": {
+    "angular": ">=1"
+  }
+}
