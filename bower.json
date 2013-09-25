@@ -4,7 +4,7 @@
   },
   "name": "angular-gm",
   "version": "0.3.0",
-  "main": ["./angular-gm-0.3.0.js"],
+  "main": ["./angular-gm.js"],
   "dependencies": {
     "angular": ">=1"
   }
