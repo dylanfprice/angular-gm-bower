@@ -1,6 +1,6 @@
 /**
  * AngularGM - Google Maps Directives for AngularJS
- * @version v0.3.0 - 2013-09-19
+ * @version v0.3.1 - 2013-10-16
  * @link http://dylanfprice.github.com/angular-gm
  * @author Dylan Price <the.dylan.price@gmail.com>
  * @license MIT License, http://www.opensource.org/licenses/MIT
@@ -49,15 +49,17 @@
    * });
    * ```
    */
-  value('angulargmDefaults', {
-    'precision': 3,
-    'markerConstructor': google.maps.Marker,
-    'polylineConstructor': google.maps.Polyline,
-    'mapOptions': {
-      zoom : 8,
-      center : new google.maps.LatLng(46, -120),
-      mapTypeId : google.maps.MapTypeId.ROADMAP
-    }
+  factory('angulargmDefaults', function() {
+    return {
+      'precision': 3,
+      'markerConstructor': google.maps.Marker,
+      'polylineConstructor': google.maps.Polyline,
+      'mapOptions': {
+        zoom : 8,
+        center : new google.maps.LatLng(46, -120),
+        mapTypeId : google.maps.MapTypeId.ROADMAP
+      }
+    };
   });
 
 })();
