@@ -1,6 +1,6 @@
 /**
  * AngularGM - Google Maps Directives for AngularJS
- * @version v2.0.0 - 2017-01-04
+ * @version v2.0.1 - 2017-01-04
  * @link http://dylanfprice.github.com/angular-gm
  * @author Dylan Price <the.dylan.price@gmail.com>
  * @license MIT License, http://www.opensource.org/licenses/MIT
@@ -603,10 +603,10 @@
       transclude: true,
       replace: true,
       scope: {
-        gmCenter: '=',
-        gmZoom: '=',
-        gmBounds: '=',
-        gmMapTypeId: '=',
+        gmCenter: '=?',
+        gmZoom: '=?',
+        gmBounds: '=?',
+        gmMapTypeId: '=?',
         gmMapOptions: '&',
         gmMapId: '&'
       },
